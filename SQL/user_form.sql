@@ -28,10 +28,13 @@ CREATE TABLE IF NOT EXISTS `user_form` (
   `email` varchar(100) NOT NULL,
   `password` varchar(50) NOT NULL,
   `user_type` enum('user','admin') NOT NULL,
+<<<<<<< HEAD
   `gender` enum('male','female') NOT NULL,
   `age` int(20) NOT NULL,
   `height` int(20),
   `weight` int(20),
+=======
+>>>>>>> 318136470f64499065a17f8e06d0c04bfd983de0
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
